@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dice Probabilities</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="script/debug.js"></script>
+<script src="script/helpers.js"></script>
+<script src="script/libs/vue.js"></script>
+<script src="script/Dice.js"></script>
+<link rel="stylesheet" href="css/bulma.css">
+<style type="text/css">
+  body {
+    background-image: url('img/cube.jpg')    
+  }
+  
+  section {
+    background-color: rgba(0,0,0,0.6)
+  }
+  
+  * {
+    color: white
+  }
+</style>
+</head>
+<body>
+<div id="app">
+<section>
+<div id="container">
+<h1>Dice Probabilities</h1>
+<p>
+<label>Expression</label>
+<p class="is-small">
+  * don't type expressions with
+    more than 5 dices!
+</p>
+<p>
+    
+  * the script is not ready yet
+</p>
+<input v-model="expr">
+<label>Condition</label>
+<input v-model="cond">
+<label>Value</label>
+<input v-model="value">
+</pre>
+</section>
+<label>debug area</label>
+<pre>{{ JSON.stringify(chance,2,2) }}</pre>
+</div>
+</div>
+<script src="script/libs/jquery-3.4.1.js"></script>
+<script src="script/app.js"></script>
+</body>
+</html>

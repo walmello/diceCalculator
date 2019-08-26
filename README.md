@@ -1,6 +1,8 @@
 # diceCalculator
 A simple calculator for RPG dice probabilities
 
+link here https://walmello24.github.io/diceCalculator/
+
 ## How to use?
 Simply write on the expression
 field choose the condition and
